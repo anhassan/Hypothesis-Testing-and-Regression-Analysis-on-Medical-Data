@@ -1,11 +1,13 @@
 # Introduction
 This notebook performs ***Hypothesis Testing*** based on both sample means and sample proportions and performs ***regression analysis*** for medical data.
 There are three data sources for analysis:
-<div>
+
 ***Admissions***: Simulates administrative data where each row represents a unique admission to a hospital.
-</div>
+
 ***Lab***: Simulates results for patients who had laboratory testing (e.g. blood counts) in their admission.
+
 ***Transfusions***: Simulates information on patients who underwent a blood transfusion in their admission.
+
 # Analysis 
 1.  ***Data  Wrangling & Manipulation*** :Extracting data from all three sources and combining all sources into one data source using *admission_id* as the primary key, retaining all rows from Admissions data source(Left Join).
 
